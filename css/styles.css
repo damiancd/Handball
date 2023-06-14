@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  rgb(4, 104, 46);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+
+  }
+
+ /* #hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("images");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+  
+ header {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(4, 104, 46);
+    color: #fff;
+    }
+
+ .logo
+ {  flex-wrap: wrap;
+    background-image: url("images/itu.jpg") ;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: auto;
+    border: 3px solid rgb(222, 232, 235);
+    background-size: 220px;
+    background-repeat:no-repeat;
+    align-self: auto;
+   }*/
+
+   header {
+    text-align: center;
+    padding: 30px;
+    background-color:  rgb(4, 104, 46);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    background-image: url("itu.jpg");
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border: 3px solid rgb(222, 232, 235);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+ /*header {
+    text-align: center;
+    padding: 30px;
+    background-image: url("images/itu.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }*/
+
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .features {
+    padding: 50px;
+    background-color: #52af46;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .feature img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid rgb(222, 232, 235);
+  }
+  
+  .features h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .features p {
+    text-align: center;
+  }
+  
+  .contact {
+    padding: 50px;
+    background-color: #eee;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact form {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact form button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color:  rgb(4, 104, 46);
+    color: #fff;
+  }
+  
